@@ -1,0 +1,5 @@
+<launch>
+    <node name = "radius" pkg= "turtlebot_tut" type = "radius.py" />
+    <node name = "compute_ang_vel" pkg= "turtlebot_tut" type = "compute_ang_vel_server.py" />
+    <node name = "infinite" pkg= "turtlebot_tut" type = "infinite.py" />
+</launch>
